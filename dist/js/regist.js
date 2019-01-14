@@ -1,1 +1,1 @@
-"use strict";
+"use strict";$(function(){var t=[' "嘿"',' "好"',' "行"',' "中"',' "爱"',' "球"',' "狗"',' "赢"',' "清"',' "造"'];$(".yanzheng").mouseover(function(){var n=t[parseInt(10*Math.random())]+t[parseInt(10*Math.random())]+t[parseInt(10*Math.random())];$(this).val("请依次点击"+n)}).mouseout(function(){$(".yanzheng").val("")}),$("#btn").click(function(){window.open("login.html")})});
