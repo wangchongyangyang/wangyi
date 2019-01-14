@@ -1,0 +1,91 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img,figure{ margin:0; padding:0; }
+a{
+    text-decoration:none;
+}
+li{
+    list-style:none;
+}
+body{
+    background:#efefef;
+    width: 100%;
+    height: auto;
+    font-family:微软雅黑;
+}
+header{
+    height:130px;
+    width:1000px;
+    margin:0 auto;
+    div:first-child{
+        a{
+            div{
+               float: left;
+                width: 300px;
+                height: 60px;
+                margin-top: 35px;background:url(https://zc.reg.163.com/resources/reg_urs/img/sprite.png) repeat -50px -18px; 
+            }
+        }
+    }
+    div:last-child{
+        float: right;
+        font-size: 18px;
+        margin-top: 50px;
+        a{
+            color: #ca5252;
+        }
+    }
+}
+section{
+    position: relative;
+    width: 1000px;
+    padding-bottom: 55px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 3px 3px #cbc9c9;
+    .top{
+        width: 320px;
+        margin: 0 auto;
+        padding-top: 44px;
+        padding-bottom: 24px;
+        div{
+            background: #ca5252;
+            border-color: #ca5252;
+            color: #fff;
+            width: 158px;
+            border: solid 1px #ccc;
+            border-right: 0;
+            height: 38px;
+            line-height: 38px;
+            text-align: center;
+            font-size: 16px;
+            float: left;
+        }
+        a{
+            display: block;
+            width: 158px;
+            color:#000;
+            border: solid 1px #ccc;
+            border-left: 0;
+            height: 38px;
+            line-height: 38px;
+            text-align: center;
+            font-size: 16px;
+            float: right;
+            position: relative;
+            p{
+                position: absolute;
+                font-size: 9px;
+                color: #fff;
+                background: #ca5252;
+                height: 12px;
+                line-height: 9px;
+                width: 26px;
+                top: 4px;
+                border-radius: 2px;
+                right: 12px;
+            }
+        }
+    }
+}
+
+
