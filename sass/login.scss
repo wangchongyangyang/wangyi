@@ -1,0 +1,194 @@
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+@font-face {
+  font-family: 'iconfont';  /* project id 1015926 */
+  src: url('//at.alicdn.com/t/font_1015926_o0zbntjetar.eot');
+  src: url('//at.alicdn.com/t/font_1015926_o0zbntjetar.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1015926_o0zbntjetar.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1015926_o0zbntjetar.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1015926_o0zbntjetar.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1015926_o0zbntjetar.svg#iconfont') format('svg');
+}
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img,figure{ margin:0; padding:0; }
+a{
+    text-decoration:none;
+}
+li{
+    list-style:none;
+}
+body{
+    width: 100%;
+    height: auto;
+    font-family:微软雅黑;
+    background: url(https://yanxuan-static.nosdn.127.net/hxm/b2c-web/p/20150730/static/media/loginbg.e6ca2ff7.jpg) 50% no-repeat;
+        background-size:cover;
+        position: relative;
+}
+header{
+        margin: 0;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        height:950px;
+       
+    .deng{
+        padding-left: 65%;
+        padding-top: 150px;
+        padding-bottom: 150px;
+        
+        height: 650px;
+        .denglu{
+                width: 365px;
+                height: 315px;
+                
+                overflow: hidden;
+                border-radius: 4px;
+                background: #fff;
+                .top{
+                    padding:30px 0;
+                    width: 312px;
+                    height: 25px;
+                    margin: 0 auto;
+                    background: 0 0;
+                    font-size: 20px;
+                    border-bottom: 1px solid #efefef;
+                }
+                .hao{
+                    padding: 0px 25px;
+                    .zh{
+                            z-index: 19;
+                            height: 30px;
+                            margin-bottom: 16px;
+                            border: 1px solid #c5cddb;
+                            background: #fff;
+                            font-size: 12px;
+                            line-height: 33px;
+                            width:312px;
+                            .iconfont{
+                                height: 30px;
+                                float: left;
+                                width: 21px;
+                                text-align: center;
+                                padding: 0 5px 0 10px;
+                                
+                            }
+                            .inp{
+                                input{
+                                    float: left;
+                                    height: 20px;
+                                    line-height: 20px;
+                                    padding-left: 8px;
+                                    border: 0;
+                                    margin:5px 0;
+                                   
+                                }:focus{
+                                    outline:none;
+                                }
+                                
+                            }
+                            
+                            
+                            
+                    }
+                    .dian{
+                        color:#fff;
+                        margin-bottom: 12px;
+                        display: block;
+                        width: 100%;
+                        height: 44px;
+                        cursor: pointer;
+                        text-align: center;
+                        color: #fff;
+                        background: #00aeff;
+                        font-size: 18px;
+                        line-height: 44px;
+                    }
+                    .wangji{
+                            z-index: 19;
+                            height: 30px;
+                            margin-bottom: 16px;
+                            border: 1px solid #c5cddb;
+                            background: #fff;
+                            font-size: 12px;
+                            line-height: 33px;
+                            width:312px;
+                        a{
+                                float: left;
+                                height: 12px;
+                                text-decoration: none;
+                                cursor: pointer;
+                                color: #999;
+                                font-size: 12px;
+                                line-height: 16px;
+                            }:last-child{
+                                float: right;
+                            }
+                    }
+                }
+                
+        }
+    }
+    
+}
+footer{
+    position: absolute;
+    left: 0;
+    bottom:0px;
+    z-index: 10;
+    width: 100%;
+    .di{
+        width: 1090px;
+        margin: auto;
+        text-align: center;
+        height: 300px;
+        background: #1a1a1a;
+        color: #a6a6a6;
+        font-size: 12px;
+        text-align: center;
+        padding: 80px 0;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        
+        ul:first-child{
+            padding-bottom: 30px;
+            border-bottom: 1px solid #2c2c2c;
+            color: #fff;
+            
+            li{
+                height: 51px;
+                line-height: 51px;
+                padding-left: 80px;
+                margin-right: 80px;
+                font-size: 16px;
+                display: inline-block;
+            }
+            
+        }
+        .link-list{
+            padding: 15px 0 8px;
+            li{
+                float: left;
+                font-size: 12px;
+                padding: 0 20px;
+                border-right: 1px solid #fff;
+                height: 15px;
+                line-height: 15px;
+                a{
+                    color: #a6a6a6;
+                    cursor: pointer;
+                }
+            }:last-child{
+                border:0;
+            }
+            
+        }
+        
+        
+    }
+    
+    
+}

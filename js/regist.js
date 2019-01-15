@@ -22,11 +22,11 @@ $(function(){
 				oScript.src ="http://localhost:8080/login.html";
 	})*/
 	
-	/*$("#btn").click(function(){
+	$("#btn").click(function(){
 		
 		window.open("login.html");
-	})*/
-	 $("#btn").click(function(){
+	})
+	 /*$("#btn").click(function(){
 
             var str = $(".yx").val();
 
@@ -41,7 +41,7 @@ $(function(){
                 alert('wrong');
 
             }
-    }
+    }*/
 
 })
 
