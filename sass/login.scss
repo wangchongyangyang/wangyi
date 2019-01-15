@@ -6,12 +6,12 @@
     -moz-osx-font-smoothing: grayscale;}
 @font-face {
   font-family: 'iconfont';  /* project id 1015926 */
-  src: url('//at.alicdn.com/t/font_1015926_o0zbntjetar.eot');
-  src: url('//at.alicdn.com/t/font_1015926_o0zbntjetar.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_1015926_o0zbntjetar.woff2') format('woff2'),
-  url('//at.alicdn.com/t/font_1015926_o0zbntjetar.woff') format('woff'),
-  url('//at.alicdn.com/t/font_1015926_o0zbntjetar.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_1015926_o0zbntjetar.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_1015926_pplszge9kpk.eot');
+  src: url('//at.alicdn.com/t/font_1015926_pplszge9kpk.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1015926_pplszge9kpk.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1015926_pplszge9kpk.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1015926_pplszge9kpk.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1015926_pplszge9kpk.svg#iconfont') format('svg');
 }
 html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img,figure{ margin:0; padding:0; }
 a{
@@ -170,6 +170,7 @@ footer{
         }
         .link-list{
             padding: 15px 0 8px;
+            margin-bottom: 20px;
             li{
                 float: left;
                 font-size: 12px;
@@ -183,6 +184,12 @@ footer{
                 }
             }:last-child{
                 border:0;
+            }
+            .diy{
+                margin-left:140px;
+            }
+            .diyi{
+                margin-left:50px;
             }
             
         }

@@ -1,10 +1,135 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="utf-8" />
 		<title>网易暴雪周边商城—中国唯一授权周边商城</title>
+		<link rel="stylesheet" href="css/index.css" />
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
 	</head>
+
 	<body>
 		<!--首页-->
+		<header>
+			<div class="top">
+				<div class="pad">
+					<div class="top-left">
+						<p>中国大陆暴雪官方授权周边商城</p>
+						<span class="iconfont">&#xe770;</span>
+						<a href="https://reward.blizzard.cn/" class="jifen">
+							战网积分兑换商城优惠券入口
+						</a>
+					</div>
+					<div class="top-right">
+						<ul>
+							<li>
+								<a href="login.html">登录</a>
+							</li>
+							<li>
+								<a href="regist.html">注册</a>
+							</li>
+							<li style="padding-right:30px" class="jiantou">
+								<a href="#">客户服务</a><span class="iconfont shang">&#xe612;</span>
+								<span class="iconfont xia">&#xe611;</span>
+								<ul class="yin">
+									<li>规则中心</li>
+									<li>在线客服</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+			<div class="logo">
+				<img class="banner-img" src="https://yanxuan-static.nosdn.127.net/hxm/b2c-web/p/20150730/static/media/banner.0f03c441.png" />
+				<div class="logo-right">
+					<input type="text" placeholder="请输入搜索内容" />
+					<span class="iconfont">&#xe613;</span>
+					<span class="iconfont">&#xe619;
+						<div>0</div>
+					</span>
+				</div>
+			</div>
+		</header>
+		<nav>
+			<ul class="heng">
+				<li class="shou ju">
+					<p></p>
+					<a class="xian" href="index.html">首页</a>
+				</li>
+				<li class="ju">
+					<a class="xian" href="#">居家生活</a>
+					<div class="bian">
+						<ul class="jujia">
+
+							<li><img src="http://nos.netease.com/dmall-mc/%E6%B4%97%E6%8A%A4.pngcb6f41ce-5ce5-4bc4-8bcc-1b5a3a413099?download=%25E6%25B4%2597%25E6%258A%25A4.png&amp;Signature=Fv7UnE1X6ELrPxyH%2Beb9K6haHU5iofcxvyOH7%2B3lF5A%3D&amp;Expires=1547622367&amp;NOSAccessKeyId=f7ebc3b6afe94da983dd4eacd62195b7" />
+								<span class="xh">洗护</span>
+							</li>
+							<li><img src="http://nos.netease.com/dmall-mc/%E6%8A%B1%E6%9E%95.png9dbd335d-ac8f-478a-803d-3156bd7a874b?download=%25E6%258A%25B1%25E6%259E%2595.png&amp;Signature=Vbd35dnGZ4qxu6DMEMDkoDCJd8JXlMP%2F%2FMc8h8OvnkU%3D&amp;Expires=1547622367&amp;NOSAccessKeyId=f7ebc3b6afe94da983dd4eacd62195b7">
+								<span class="bzh">抱枕</span>
+							</li>
+							<li><img src="http://nos.netease.com/dmall-mc/%E5%BA%8A%E5%93%81.png1b134461-7e7a-4a08-950f-0baa5a94b964?download=%25E5%25BA%258A%25E5%2593%2581.png&amp;Signature=uRoBA9ROG2Yb6A%2FI5BSc3yHA7nFuXGp%2Bi815oq8ky5Y%3D&amp;Expires=1547622367&amp;NOSAccessKeyId=f7ebc3b6afe94da983dd4eacd62195b7">
+								<span class="chp">床品</span>
+							</li>
+							<li><img src="http://nos.netease.com/dmall-mc/%E6%94%B6%E7%BA%B3.png30db019c-2827-4070-a167-c259cb1299d1?download=%25E6%2594%25B6%25E7%25BA%25B3.png&amp;Signature=SX8cuEB9UH93hz0teOKfj%2FTg0UdwgONnGIq%2F98xd5Sg%3D&amp;Expires=1547622367&amp;NOSAccessKeyId=f7ebc3b6afe94da983dd4eacd62195b7">
+								<span class="shn">收纳</span></li>
+							<li><img src="http://nos.netease.com/dmall-mc/%E6%8B%96%E9%9E%8B.png0dc1e300-3c4e-447a-bbd4-f8e7c573191b?download=%25E6%258B%2596%25E9%259E%258B.png&amp;Signature=7WYWBhXjoqBKJKy4Fr9ww0A%2BSeAPNtqW05gW77ZrwXI%3D&amp;Expires=1547622367&amp;NOSAccessKeyId=f7ebc3b6afe94da983dd4eacd62195b7">
+								<span class="tx">拖鞋</span></li>
+							<li><img src="http://nos.netease.com/dmall-mc/%E6%B0%B4%E6%9D%AF.pnga65de5e7-3073-46ee-b925-ec0b78092c31?download=%25E6%25B0%25B4%25E6%259D%25AF.png&amp;Signature=JL5aPdio9Ked5E5ksriBBohCUQ9ImvfxP9YgYCCap7M%3D&amp;Expires=1547622367&amp;NOSAccessKeyId=f7ebc3b6afe94da983dd4eacd62195b7"><span class="shb">水杯</span></li>
+							<li><img src="http://nos.netease.com/dmall-mc/%E5%AE%B6%E9%A5%B0.pngf070dfa9-d76e-4ec7-90cd-eb28355cbb14?download=%25E5%25AE%25B6%25E9%25A5%25B0.png&amp;Signature=0P7xb%2FU5f1eC71O%2B%2BIWGFGq6kk5zEUGdZVBmBMc658U%3D&amp;Expires=1547622367&amp;NOSAccessKeyId=f7ebc3b6afe94da983dd4eacd62195b7"><span class="jsh">家饰</span></li>
+							<li><img src="http://nos.netease.com/dmall-mc/%E7%AE%B1%E5%8C%85.pnge4b25616-cdbc-4c3e-af58-d4cd3f955988?download=%25E7%25AE%25B1%25E5%258C%2585.png&amp;Signature=Hc1XModNR4VcS%2B%2FjwM6pktNMzHdC34LSioSqUkob75U%3D&amp;Expires=1547622367&amp;NOSAccessKeyId=f7ebc3b6afe94da983dd4eacd62195b7"><span class="xb">箱包</span></li>
+							<li><img src="http://nos.netease.com/dmall-mc/%E9%A4%90%E6%A9%B1.png107a2f89-1f71-4c06-8b0f-1852a8c3aefa?download=%25E9%25A4%2590%25E6%25A9%25B1.png&amp;Signature=mbWPObEgyoSQSb2jiD4WwoB2osJVQFOSa1U8vyhHBx8%3D&amp;Expires=1547622367&amp;NOSAccessKeyId=f7ebc3b6afe94da983dd4eacd62195b7"><span class="shp">食品</span></li>
+							<li><img src="http://nos.netease.com/dmall-mc/%E9%9B%A8%E4%BC%9E.pngfbf7ecf1-5033-4020-a0cb-c31ee22c978e?download=%25E9%259B%25A8%25E4%25BC%259E.png&amp;Signature=B7cprdKIi1xqqqHiHPPDMXq6YGUu3sED%2FtMZu62FLOY%3D&amp;Expires=1547622367&amp;NOSAccessKeyId=f7ebc3b6afe94da983dd4eacd62195b7"><span class="ys">雨伞</span></li>
+
+						</ul>
+					</div>
+				</li>
+				<li class="ju">
+					<a class="xian" href="#">手办模型</a>
+				</li>
+				<li class="ju">
+					<a class="xian" href="#">数码外设</a>
+				</li>
+				<li class="ju">
+					<a class="xian" href="#">配饰挂件</a>
+				</li>
+				<li class="ju">
+					<a class="xian" href="#">服装服饰</a>
+				</li>
+				<li class="ju">
+					<a class="xian" href="#">图书文具</a>
+				</li>
+			</ul>
+		</nav>
+
+		<div class="banner">
+			<div class="banner1" style="opacity: 1; background-image: url(&quot;http://nos.netease.com/dmall-mc/%E6%B3%95%E8%80%81%E4%B9%8B%E9%B9%B0%E5%8F%AF%E5%8A%A8%E4%BA%BA%E5%81%B6.jpgfd53c7b0-418f-48b5-b47c-701101811385?download=%25E6%25B3%2595%25E8%2580%2581%25E4%25B9%258B%25E9%25B9%25B0%25E5%258F%25AF%25E5%258A%25A8%25E4%25BA%25BA%25E5%2581%25B6.jpg&amp;Signature=xRqWmj6xjJdoyae3YYeH06fNLqJtImi4ex0bAdx7dbA%3D&amp;Expires=1547647192&amp;NOSAccessKeyId=f7ebc3b6afe94da983dd4eacd62195b7&quot;); z-index: 99;">
+
+			</div>
+			<div class="banner1" style="opacity: 0; background-image: url(&quot;http://nos.netease.com/dmall-mc/banner1920_420.jpgd6718262-bd39-4d2b-b4ea-a38232662b84?download=banner1920_420.jpg&amp;Signature=BQBpb53MnftNBXW38RtADa%2B2AdnY%2FPKj4FwOV6I0VGo%3D&amp;Expires=1547647192&amp;NOSAccessKeyId=f7ebc3b6afe94da983dd4eacd62195b7&quot;); z-index: 99;">
+
+			</div>
+			<div class="banner1" style="opacity: 1; background-image: url(&quot;http://nos.netease.com/dmall-mc/%E7%82%89%E7%9F%B3%E4%BC%A0%E8%AF%B4-%E8%89%BA%E6%9C%AF%E8%AE%BE%E5%AE%9A%E9%9B%86banner.jpg8d6086d1-cb2a-4115-9f39-37d1c52c1089?download=%25E7%2582%2589%25E7%259F%25B3%25E4%25BC%25A0%25E8%25AF%25B4-%25E8%2589%25BA%25E6%259C%25AF%25E8%25AE%25BE%25E5%25AE%259A%25E9%259B%2586banner.jpg&amp;Signature=ZoFdXDRZ17Sx8CD0jeiem51%2BHPTe5mD8K%2Fy%2F%2BxwRFuA%3D&amp;Expires=1547647192&amp;NOSAccessKeyId=f7ebc3b6afe94da983dd4eacd62195b7&quot;); z-index: 100;">
+
+			</div>
+			<div class="banner1" style="opacity: 0; background-image: url(&quot;http://nos.netease.com/dmall-mc/1920x420.jpg10e19fc3-2b93-402c-aa20-e9ba57b9ca67?download=1920x420.jpg&amp;Signature=7GmpCQHeCpRQbr969zLoH9d7tsPCHErDlFxZcxvTgng%3D&amp;Expires=1547647192&amp;NOSAccessKeyId=f7ebc3b6afe94da983dd4eacd62195b7&quot;); z-index: 99;">
+
+			</div>
+			<div class="banner1" style="opacity: 0; background-image: url(&quot;http://nos.netease.com/dmall-mc/%E6%9A%B4%E9%9B%AA%E5%98%89%E5%B9%B4%E5%8D%8E1920x420.jpgd4bb7453-e812-4a42-b353-96f08efe7f77?download=%25E6%259A%25B4%25E9%259B%25AA%25E5%2598%2589%25E5%25B9%25B4%25E5%258D%258E1920x420.jpg&amp;Signature=X2liWW0Wl8ZLMF3axScivvH9jCJfGsuG1knv%2F4vPcko%3D&amp;Expires=1547647192&amp;NOSAccessKeyId=f7ebc3b6afe94da983dd4eacd62195b7&quot;); z-index: 99;">
+
+			</div>
+			
+			<div class="jt">
+				<span class="zuo">&lt;</span>
+				<span class="you">&gt;</span>
+			</div>
+			
+			<div class="xiabiao"> <span class="dot" data-index="0"></span><span class="dot" data-index="1"></span><span class="dot active" data-index="2"></span><span class="dot" data-index="3"></span>
+				<span class="dot" data-index="4"></span>
+			</div>
+		</div>
 	</body>
+
 </html>

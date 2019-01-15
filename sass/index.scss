@@ -1,0 +1,302 @@
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+@font-face {
+  font-family: 'iconfont';  /* project id 1015926 */
+  src: url('//at.alicdn.com/t/font_1015926_pplszge9kpk.eot');
+  src: url('//at.alicdn.com/t/font_1015926_pplszge9kpk.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1015926_pplszge9kpk.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1015926_pplszge9kpk.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1015926_pplszge9kpk.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1015926_pplszge9kpk.svg#iconfont') format('svg');
+}
+
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img,figure{ margin:0; padding:0; }
+a{
+    text-decoration:none;
+}
+li{
+    list-style:none;
+}
+body{
+    width: 100%;
+    height: auto;
+    font-family:微软雅黑;
+}
+header{
+        background: #344a71 url(https://yanxuan-static.nosdn.127.net/hxm/b2c-web/p/20150730/static/media/bg-main.531304ac.png) repeat 0 0;
+        font-size:12px;
+        .pad{
+            width:1090px;
+            margin:0 auto;
+        }
+        .top{
+            color: #7f93a9;
+            background-color: rgba(0,0,0,.2);
+            height: 30px;
+            line-height: 30px;
+            
+            .top-left{
+                float: left;
+                p{
+                    width:168px;
+                    color: #7f93a9;
+                    height: 30px;
+                    line-height: 30px;
+                    float: left;
+                }
+                span{
+                    display:inline-block;
+                    float: left;
+                    height: 30px;
+                    color: #00aeff;
+                    background-position: 0 8px;
+                    padding-left: 20px;
+                    overflow: hidden;
+                }
+                .jifen{
+                    display: block;
+                    float: left;
+                    color: #00aeff;
+                    cursor:pointer;
+                    margin-left:15px;
+                }
+            }
+            .top-right{
+                float: right;
+                li{
+                    float: left;
+                    display: inline-block;
+                    border-right: 1px solid #7a92ac;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    height: 14px;
+                    margin-top:8px;
+                    line-height: 14px;
+                    position: relative;
+                    cursor: pointer;
+                    a{
+                        color: #7f93a9;
+                        
+                    }
+                    span{
+                           display: inline-block;
+                            float: left; 
+                            position: absolute;
+                            right:10px;
+                            top:2px;
+                    }
+                        .xia{
+                            display: none;
+                        }
+                        .yin{
+                            display: none;
+                            position: absolute;
+                            top: 20px;
+                            left: 0;
+                            background: rgba(0,0,0,.5);
+                            border: 1px solid #374254;
+                            width: 100%;
+                            z-index: 500;
+                            li{
+                                    text-align: center;
+                                    border-bottom: 1px solid #374254;
+                                    width: 100%;
+                                    height: 30px;
+                                    line-height: 30px;
+                                    float: left;
+                                    border-right:0;
+                                    padding-left:0;
+                                    padding-right:0;
+                                    margin-top: 0;
+                                    cursor: pointer;
+                            }
+                        }
+                }
+            }
+        }
+        .logo{
+            width: 1090px;
+            height:150px;
+            margin: auto;
+            position: relative;
+            img{
+                height: 80px;
+                margin-top: 40px;
+                cursor: pointer;
+            }
+            .logo-right{
+                padding-top: 65px;
+                float: right;
+                position: relative;
+                margin-right: 60px;
+                input{
+                    background: transparent;
+                    border: none;
+                    border-bottom: 1px solid #33669b;
+                    height: 20px;
+                    padding: 0 10px;
+                    color: #c9d8e6;
+                    outline: none;
+                    width: 250px;
+                    float:left;
+                }
+                span{
+                    display: block;
+                    float:left;
+                    font-size:20px;
+                    height: 18px;
+                    margin-left:20px;
+                    cursor: pointer;
+                    color:#00AEFF;
+                }:last-child{
+                    position: relative;
+                    div{
+                        width:20px;
+                        height:20px;
+                        border-radius: 50%;
+                        background:#ed871d;;
+                        color:#fff;
+                        text-align: center;
+                        font-size:14px;
+                        line-height: 20px;
+                        position:absolute;
+                        right:-13px;
+                        top:-11px;
+                    }
+                }
+                
+            }
+        }
+}
+nav{
+    color: #cfd2d7;
+    font-size: 15px;
+    font-weight: 700;
+    background: #344a71 url(https://yanxuan-static.nosdn.127.net/hxm/b2c-web/p/20150730/static/media/bg-main.531304ac.png) repeat fixed top;
+    height: 42px;
+    position: relative;
+    z-index: 500;
+    .heng{
+            cursor: pointer;
+            color: #cfd2d7;
+            font-size: 15px;
+            font-weight: 700;
+            .ju{
+                float: left;
+                margin:10px 40px;
+                p{float: left;
+                    height: 10px;
+                    width:60px;
+                }
+                a{
+                    
+                    font-size:15px;
+                }
+            }
+    }
+}
+.bian{
+    background: rgba(0,0,0,0.8);
+    width: 100%;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    border-bottom: 1px solid #373c50;
+    display: none;
+    padding: 30px 45px 0;
+    font-size: 14px;
+}
+.jujia{
+    padding: 30px 45px 0;
+    font-size: 14px;
+    
+    
+    
+    li{
+        float: left;
+        display: inline-block;
+        text-align: center;
+        height: 65px;
+        width: 65px;
+        margin-right: 68px;
+        margin-bottom: 25px;
+        cursor: pointer;
+        img{
+               
+                height: 55px;
+                max-width: 60px;
+        }
+        span{
+            height: 12px;
+            line-height: 12px;
+        }
+    }
+}
+.xian{
+    color: #b8bcbf;
+}
+.banner{
+    position: relative;
+    cursor: pointer;
+    height: 420px;
+}
+.banner1{
+        position: absolute;
+        top: 0;
+        -webkit-transition: opacity 1s ease;
+        -o-transition: opacity 1s ease;
+        transition: opacity 1s ease;
+        width: 100%;
+        height: 420px;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 100;
+}
+.jt{
+    width: 1090px;
+    height: 80px;
+    margin: auto;
+    z-index: 1001;
+    span{
+        position: absolute;
+        display: inline-block;
+        width: 40px;
+        height: 80px;
+        text-align: center;
+        background: rgba(0,0,0,.5);
+        color: #2093c9;
+        line-height: 80px;
+        font-size: 40px;
+        z-index: 1002;
+    }:first-child{
+        position: absolute;
+        left:80px;
+        top:150px;
+    }
+    span:last-child{
+        position: absolute;
+        right:80px;
+        top:150px;
+    }
+}
+.xiabiao{
+    z-index: 101;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 10px;
+    span{
+        display: inline-block;
+        width: 100px;
+        height: 5px;
+        background: hsla(119,119,119,.5);
+        margin-left: 20px;
+        border-radius: 5px;
+    }
+}
+
