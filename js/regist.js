@@ -5,7 +5,7 @@ $(function(){
 		$(this).val("请依次点击"+arr1);
 	}).mouseout(function(){
 		$(".yanzheng").val("");
-	})
+	});
 	/*var ipt=$(".zhanghao input").val();
 	if(ipt!=null) {
 			
