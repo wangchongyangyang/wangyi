@@ -6,26 +6,46 @@ $(function(){
 	}).mouseout(function(){
 		$(".yanzheng").val("");
 	});
-	/*var ipt=$(".zhanghao input").val();
-	if(ipt!=null) {
-			
-            $(".cha").show();
-}*/
-	/*if($(".zhanghao input").val()!=""){
-		$(".cha").css({"display":"block"});
-	}*/
-	/*$(".zhanghao").on("input propertychange",".zhanghao input",function(){
-     $(".cha").css({"display":"block"});
-})*/
-	/*$("#btn").click(function(){
-		var oScript = document.createElement("script");
-				oScript.src ="http://localhost:8080/login.html";
-	})*/
 	
-	$("#btn").click(function(){
-		
-		window.open("login.html");
-	})
+	
+	$(".sj").blur(function(){
+					var val = $(this).val();
+					//http://47.104.244.134:8080/
+					
+					$.get("http://47.104.244.134:8080/username.do",{username:val},function(data){
+						if(data.code==0){
+							$(".yin").html("用户名已被占用");
+						}else{
+							$(".yin").html("");
+						}
+					})
+					
+				})
+				$(".yx").blur(function(){
+					var val = $(this).val();
+					//http://47.104.244.134:8080/
+					
+					$.get("http://47.104.244.134:8080/useremail.do",{email:val},function(data){
+						if(data.code==0){
+							$(".yinm").html("邮箱已被占用");
+						}else{
+							$(".yinm").html("");
+						}
+					})
+					
+				})
+				
+				$("#btn").click(function(){
+					$.post("http://47.104.244.134:8080/usersave.do",{
+						username:$(".sj").val(),
+						password:$(".mm").val(),
+						email:$(".yx").val(),
+						sex:$(".yz").val()
+					},function(data){
+						
+					})
+					location.href="login.html";
+				})
 	 /*$("#btn").click(function(){
 
             var str = $(".yx").val();

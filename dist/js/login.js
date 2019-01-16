@@ -1,1 +1,1 @@
-"use strict";$(function(){$(".zh").click(function(){$(this).css({border:"1px solid #4aafe9"})})});
+"use strict";$(function(){$(".zh").click(function(){$(this).css({border:"1px solid #4aafe9"})}),$(".dian").click(function(){$.post("http://47.104.244.134:8080/userlogin.do",{name:$(".yx").val(),password:$(".mm").val()},function(o){0==o.code?($.cookie("token",o.data.token),location.href="index.html"):alert("用户名或密码错误")})})});
