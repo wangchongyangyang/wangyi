@@ -102,11 +102,11 @@ $(function(){
 					$("#hui").css({"display":"none"});
 				}
 			}
-			var timer = null;
+			var timer1 = null;
 			$("#hui").click(function(){
-				clearInterval(timer);
+				clearInterval(timer1);
 				
-				timer = setInterval(function(){
+				timer1 = setInterval(function(){
 					var iCur = document.documentElement.scrollTop || document.body.scrollTop;
 					var iSpeed = -iCur/4;
 					iSpeed = Math.floor(iSpeed);
@@ -114,7 +114,7 @@ $(function(){
 					document.documentElement.scrollTop = document.body.scrollTop = iCur + iSpeed;
 					
 					if(iCur == 0){
-						clearInterval(timer);
+						clearInterval(timer1);
 					}
 					
 				},30);
@@ -169,14 +169,6 @@ $(function(){
 					<span class="prod-price">
 						<span class="discount">特价</span> ￥${listData[i].price}
 					</span></a>`;
-						
-						/*str += `<span>
-						<a href="detail.html?id=${listData[i].id}">
-						<img src="${listData[i].picurl}">
-						<p>${listData[i].name}</p>
-						<p>${listData[i].price}</p>
-						</a>
-						</li>*/
 					}
 					
 					$(".carrousel-item").html(str);
@@ -185,9 +177,15 @@ $(function(){
 				})
 			})
 			
+			$("#gou").click(function(){
+				location.href="cart.html"
+			})
 			
-			
-			
+			$(".hover-enlarge").mousemove(function(){
+				$(this).children("img").stop().animate({"width":"250px","height":"250px"},100);
+			}).mouseout(function(){
+				$(this).children("img").stop().animate({"width":"200px","height":"200px"},100);
+			})
 			
 	
 })

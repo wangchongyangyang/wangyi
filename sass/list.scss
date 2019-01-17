@@ -1,0 +1,41 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img,figure{ margin:0; padding:0; }
+a{
+    text-decoration:none;
+}
+li{
+    list-style:none;
+}
+
+.bao{
+    position: absolute;
+    left:-10px;
+    top:-10px;
+    width: 40px;
+    height: 40px;
+    border-radius:50% ;
+    background: red;
+    color:#fff;
+    text-align: center;
+    font-size: 14px;
+    line-height: 40px; 
+    border: 1px solid #000;
+}
+li{
+    position: relative;
+    width:250px;
+    text-align: center;
+    float: left;
+    margin:10px 30px;
+    border: 1px solid #264770;
+    
+    p{
+        height:85px;
+        color:#000000;
+        border-top: 1px solid #264770;
+    }
+    .hong{
+        height: 20px;
+        color: red;
+    }
+    
+}

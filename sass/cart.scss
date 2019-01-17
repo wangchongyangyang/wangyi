@@ -1,0 +1,51 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img,figure{ margin:0; padding:0; }
+a{
+    text-decoration:none;
+}
+li{
+    list-style:none;
+}
+body{
+    position: relative;
+}
+#cartList{
+    font-size:24px;
+    width:1089px;
+    margin-left:30px;
+    border: 1px solid #000000;
+    li{
+        border-bottom: 1px solid #000000;
+        height: 55px;
+        padding-top: 20px;
+        width: 100%;
+        input{
+            
+            width: 30px;
+            height: 30px;
+            float: left;
+        }
+        span{
+            margin:0 10px;
+            display: inline-block;
+        }
+        .ming{
+            width:580px;
+            font-size:16px;
+        }
+        
+    }
+    
+}
+#totalPrice{
+    position: absolute;
+    right: 20px;
+    top:10px;
+    width:80px;
+    height: 50px;
+    font-size:20px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    background: red;
+    border: 1px solid blue;
+}
